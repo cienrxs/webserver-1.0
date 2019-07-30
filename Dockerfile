@@ -9,9 +9,9 @@ RUN apt-get update && \
 
 RUN a2ensite default-ssl && a2enmod ssl
 
-ENV APACHE_RUN_USER =www-data \
-    APACHE_RUN_GROUP =www-data \
-    APACHE_LOG_DIR = /var/log/apache2
+ENV APACHE_RUN_USER=www-data \
+    APACHE_RUN_GROUP=www-data \
+    APACHE_LOG_DIR=/var/log/apache2
 
 EXPOSE 80 443
 
