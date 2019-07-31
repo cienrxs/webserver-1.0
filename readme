@@ -1,0 +1,2 @@
+Der Ordner /home/html muss dem User und Gruppe www-data zugeordnet sein.
+Wenn der User und die Gruppe www-data nicht vorhanden ist, muss diese noch erstellt werden.
